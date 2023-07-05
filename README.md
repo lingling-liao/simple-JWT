@@ -1,7 +1,7 @@
 
 Step 1 : 使用 IDE (如 VS code)，建立一個 node.js 專案
 
-Step 2 : `npm install express` 其中 express.js 可以讓 node.js 使用許多 web api，使開發更便利)
+Step 2 : `npm install express` 其中 express.js 可以讓 node.js 使用許多 web api，使開發更便利
 
 Step 3 : `npm install jsonwebtoken` 用來生成 JWT
 
@@ -13,7 +13,7 @@ Step 5 : JWT 的 sign 步驟，透過 (1-17) 這些步驟完成
 * 過期時間
 * payload
 
-Step 6 : 登入及驗證 API
+Step 6 : 登入及驗證 API (17-)
 
 * 登入 API : 驗證使用者是否輸入正確的帳號與密碼，若正確就給予 token
 * 驗證 API : 使用者回傳 token 至 server，透過 JWT verify 解析 token 是否正確，若正確且無過期則回傳 **verified**，若過期則回傳 **Token is expired**，若錯誤則回傳 **JWT verify fail**
