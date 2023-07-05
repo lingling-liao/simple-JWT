@@ -1,21 +1,21 @@
 {
-  "name": "20230504_jwt",
+  "name": "simple-jwt",
   "version": "1.0.0",
-  "description": "jwt practice",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dddenrose/JWT.git"
+    "url": "git+https://github.com/lingling-liao/simple-JWT.git"
   },
-  "author": "",
+  "author": "Ling-Ling Liao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dddenrose/JWT/issues"
+    "url": "https://github.com/lingling-liao/simple-JWT/issues"
   },
-  "homepage": "https://github.com/dddenrose/JWT#readme",
+  "homepage": "https://github.com/lingling-liao/simple-JWT#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
