@@ -26,6 +26,9 @@ Step 7 : 透過 postman 去呼叫 login api，若帳號密碼填寫正確則回�
 
 Step 8 : 驗證 token
 
+![image](https://github.com/lingling-liao/simple-JWT/assets/17310038/5c07d5b0-9338-4c76-a84f-522ff7a23af6)
+
+
 如果您已經完成以上，下次使用僅需執行
 
 Step 1 : `npm install` (載入模塊)
