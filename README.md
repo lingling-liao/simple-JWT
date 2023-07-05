@@ -21,6 +21,9 @@ Step 6 : 登入及驗證 API (17-)
 
 Step 7 : 透過 postman 去呼叫 login api，若帳號密碼填寫正確則回傳 token
 
+![image](https://github.com/lingling-liao/simple-JWT/assets/17310038/b8bc66d7-9c96-4581-acf7-1914f093a0e1)
+
+
 Step 8 : 驗證 token
 
 如果您已經完成以上，下次使用僅需執行
