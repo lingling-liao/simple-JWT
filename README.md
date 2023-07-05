@@ -7,8 +7,18 @@ Step 3 : **npm install jsonwebtoken** 用來生成 JWT
 
 Step 4 : 建立 index.js
 
-Step 5 : JWT 的 sign 步驟，透過 (1-17) 這些步驟完成 `JWT密鑰設定`、`過期時間`和`payload`
+Step 5 : JWT 的 sign 步驟，透過 (1-17) 這些步驟完成
+
+* JWT密鑰設定
+* 過期時間
+* payload
 
 Step 6 : 登入及驗證 API
 
-* 登入 API : 
+* 登入 API : 驗證使用者是否輸入正確的帳號與密碼，若正確就給予 token
+* 驗證 API : 使用者回傳 token 至 server，透過 JWT verify 解析 token 是否正確，若正確且無過期則回傳 `verified`，若過期則回傳 `Token is expired`，若錯誤則回傳 `JWT verify fail`
+* Server 可行設定要設在哪個 port，設定好後 **node index.js** 執行 server
+
+Step 7 : 透過 postman 去呼叫 login api，若帳號密碼填寫正確則回傳 token
+
+Step 8 : 驗證 token
