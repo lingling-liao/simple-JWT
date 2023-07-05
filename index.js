@@ -9,8 +9,8 @@ const expirationTime = 60;
 
 // Configure the payload of JWT to include any number of key/value pairs
 const payloadData = {
-  user_id: "UserA",
-  email: "UserA@example.com",
+  user_id: "A User",
+  email: "AUser@wistron.com",
 };
 
 // Use the jsonwebtoken package to generate a JWT
@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.post("/user/login", (req, res) => {
   const isUserValid =
-    req.body.account === "UserA" && req.body.password === "ABC123";
+    req.body.account === "A User" && req.body.password === "ABC1010";
   if (isUserValid) {
     res.send({ token: generatedToken });
   }
