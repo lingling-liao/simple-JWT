@@ -1,11 +1,19 @@
-// 生成 JWT token
+// Generate JWT token
 const jsonwebtoken = require("jsonwebtoken");
+
+// Set the secret key for JWT (should be kept confidential)
 const secretKey = "mysecretkey";
+
+// Set the expiration time for JWT to 1 hour
 const expirationTime = 60;
+
+// Configure the payload of JWT to include any number of key/value pairs
 const payloadData = {
   user_id: "UserA",
   email: "UserA@example.com",
 };
+
+// Use the jsonwebtoken package to generate a JWT
 const generatedToken = jsonwebtoken.sign(payloadData, secretKey, { expiresIn: expirationTime });
 
 // Build server
